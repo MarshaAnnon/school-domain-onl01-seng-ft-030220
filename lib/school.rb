@@ -15,7 +15,12 @@ class School
     else
       @roster[grade] = [name]
     end
+  end
 
+  def sort
+    @roster.each do |grade, students|
+      grade.students.sort!
+    end
   end
 
 
