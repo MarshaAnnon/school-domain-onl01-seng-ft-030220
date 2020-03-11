@@ -8,7 +8,7 @@ class School
   def roster
     @roster = roster
   end
-  
+
 end
 
 school = School.new("Bayside High School")
