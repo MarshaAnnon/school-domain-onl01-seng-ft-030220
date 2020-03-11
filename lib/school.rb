@@ -1,7 +1,7 @@
 class School
 
   def initialize(name)
-    @school = school
+    @school = name
   end
 
 
