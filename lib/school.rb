@@ -1,10 +1,12 @@
 class School
 
-  def initialize(name)
-    @school = name
+  
+
+  def initialize(school)
+    @school = school
   end
 
-  school.roster{}
+  
 
 
 end
