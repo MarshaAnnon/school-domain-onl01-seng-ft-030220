@@ -10,6 +10,8 @@ class School
   end
 
   def add_student(name, grade)
+    @roster["add_student"] = []
+    @roster["add_student"] << "add_student"
 
   end
 
