@@ -6,7 +6,6 @@ class School
     @school = school
     @roster = {}
   end
-binding.pry
 
 end
 
